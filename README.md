@@ -11,7 +11,7 @@ whoami
 ![image](https://user-images.githubusercontent.com/42426317/161457625-eaa3663e-933d-43ba-b9be-00a1befbd1b5.png)
 
  ## Step 2
- Verify the user ID. You can check the user id by looking in the "passwd" file. 
+ Verify the user ID. You can check the user id by looking in the ```passwd``` file. 
  Type the command 
  ```bash
  cat /etc/passwd
@@ -21,7 +21,7 @@ whoami
 ![image](https://user-images.githubusercontent.com/42426317/161457583-bc1a040e-ac8e-4f8e-9e71-d6dedc5533d4.png)
 
 ## Step 3
-Enable the 'root' user. 
+Enable the ```root``` user. 
 The first step in doing this is to change the password for root. 
 From your default (kali) user, type the following command to switch user and become root: 
 ```bash
@@ -39,10 +39,10 @@ passwd root
 ![image](https://user-images.githubusercontent.com/42426317/161458102-0b44a55e-017c-4e7c-b8e2-793a005f1d4b.png)
 
 ## Step 5
-Exit out of the terminal, log out from using the 'kali' user.
+Exit out of the terminal, log out from using the ```kali``` user.
 
 ## Step 6
-Log in as root using the new password that was set in step 4.
+Log in as ```root``` using the new password that was set in step 4.
 
 ## Step 7
 Lets change the name of the home directory with this command: 
@@ -84,4 +84,10 @@ Once again, after you log in using your new user name, you can verify the change
 
 
 ===========================================================================
-### Credit: Tech Dhee https://youtu.be/k2ZeUkHZSn0
+### Credit 
+The steps are taken from Tech Dhee's video https://youtu.be/k2ZeUkHZSn0 .
+
+
+===========================================================================
+
+[Coram Deo](https://www.ligonier.org/learn/articles/what-does-coram-deo-mean) !
